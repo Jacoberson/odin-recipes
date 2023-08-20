@@ -16,17 +16,29 @@ h1 {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 400px;
     height: auto;
 }
 
-h2, h3, div.container {
+h2,
+h3 {
     text-align: center;
 }
 
-ul, ol {
-    display: inline-block;
-    text-align: left
+.card {
+    padding: 8px;
+    background-color: #ada7a7;
+    margin: 8px auto;
+    width: 800px;
+}
+
+.card-text {
+    font-size: 24px;
+}
+
+.ingredients,
+.directions {
+    margin: 8px auto;
+    font-size: 24px;
 }
